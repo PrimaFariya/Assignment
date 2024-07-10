@@ -178,3 +178,51 @@ body {
 	border-radius: 16px;
 }
 
+
+
+/* section-current-target  */
+.section-current-target {
+	padding: 75px 0px;
+}
+.section-current-target .card-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 24px;
+}
+.section-current-target .card-grid .card-grid-col {
+}
+.section-current-target .card-grid .card-grid-col .card {
+	padding: 40px;
+	border-radius: 16px;
+}
+.section-current-target .card-grid .card-grid-col .card.is-html {
+	background: #ff4c1e0d;
+}
+.section-current-target .card-grid .card-grid-col .card.is-css {
+	background: #004ce80d;
+}
+.section-current-target .card-grid .card-grid-col .card.is-js {
+	background: #ffdf000d;
+}
+.section-current-target .card-grid .card-grid-col .card img {
+	width: 100%;
+	max-width: 56px;
+	margin-bottom: 24px;
+}
+.section-current-target .card-grid .card-grid-col .card h4 {
+	font-size: 24px;
+	font-weight: 800;
+	margin-bottom: 8px;
+}
+.section-current-target .card-grid .card-grid-col .card p {
+	font-size: 16px;
+	font-weight: 400;
+	color: #0d1321;
+	margin-bottom: 24px;
+}
+.section-current-target .card-grid .card-grid-col .card a {
+	color: #0d1321;
+	font-size: 16px;
+	font-weight: 700;
+}
+
