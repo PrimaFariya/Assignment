@@ -162,3 +162,19 @@ body {
 	width: 100%;
 	max-width: 274px;
 }
+
+
+/* section-inspiration  */
+.section-inspiration {
+	padding-bottom: 75px;
+}
+.section-inspiration .inspiration-video-wrapper {
+	padding: 32px;
+	border: 1px solid #0d132133;
+	border-radius: 16px;
+}
+.section-inspiration .inspiration-video-wrapper iframe {
+	width: 100%;
+	border-radius: 16px;
+}
+
