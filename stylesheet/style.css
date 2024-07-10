@@ -95,3 +95,70 @@ body {
 	max-width: 65ch;
 	text-align: center;
 }
+
+/* section-why-web-dev */
+.section-why-web-dev {
+	padding: 74px 0px;
+}
+.section-why-web-dev .why-web-dev-inner-wrapper {
+	background: #fafafb;
+	border-radius: 16px;
+	padding: 80px 97px;
+}
+.section-why-web-dev .why-web-dev-inner-wrapper .row {
+	display: flex;
+	align-items: center;
+	margin-bottom: 32px;
+}
+.section-why-web-dev .why-web-dev-inner-wrapper .row.is-left {
+	background: linear-gradient(80deg, #fff, transparent);
+	padding: 48px;
+	border-radius: 16px;
+}
+.section-why-web-dev .why-web-dev-inner-wrapper .row.is-right {
+	background: linear-gradient(-80deg, #fff, transparent);
+	border-radius: 16px;
+	padding: 48px;
+	display: flex;
+	justify-content: space-between;
+}
+.section-why-web-dev .why-web-dev-inner-wrapper .row .content-wrapper {
+	width: 50%;
+}
+.section-why-web-dev
+	.why-web-dev-inner-wrapper
+	.row
+	.content-wrapper
+	.row-title {
+	font-size: 24px;
+	margin-bottom: 16px;
+	max-width: 20ch;
+	color: #0d1321b2;
+	font-weight: 800;
+}
+.section-why-web-dev
+	.why-web-dev-inner-wrapper
+	.row
+	.content-wrapper
+	.row-content {
+	color: #0d1321b2;
+	font-size: 16px;
+	max-width: 32ch;
+	margin-bottom: 32px;
+}
+.section-why-web-dev .why-web-dev-inner-wrapper .row .row-image-wrapper {
+	width: 50%;
+	display: flex;
+	justify-content: end;
+}
+.section-why-web-dev
+	.why-web-dev-inner-wrapper
+	.row.is-right
+	.row-image-wrapper {
+	justify-content: start;
+	width: 40%;
+}
+.section-why-web-dev .why-web-dev-inner-wrapper .row .row-image-wrapper img {
+	width: 100%;
+	max-width: 274px;
+}
