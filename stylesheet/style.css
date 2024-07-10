@@ -226,3 +226,71 @@ body {
 	font-weight: 700;
 }
 
+
+/* section-support  */
+.section-support {
+	padding: 75px 0px;
+}
+.section-support .container {
+	background-image: url(../assets/images/handshake.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 16px;
+	padding: 64px 48px;
+	position: relative;
+	z-index: 1;
+}
+.section-support .container::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5); 
+	z-index: -1;
+	border-radius: 16px;
+}
+.section-support .section-title {
+	color: #fff;
+}
+.section-support .section-sub-text {
+	color: #fff;
+}
+.section-support .input-wrapper {
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+	width: 100%;
+	max-width: 684px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.section-support .input-wrapper .input {
+	width: 100%;
+	padding: 20px;
+	border-radius: 8px;
+	color: #0d1321;
+	font-size: 16px;
+	font-weight: 400;
+}
+.section-support .input-wrapper .input::placeholder {
+	color: #0d132166;
+}
+.section-support .input-wrapper .submit {
+	padding: 17px 20px;
+	border-radius: 8px;
+	border: 1px solid white;
+	color: #0d1321;
+	font-size: 20px;
+	font-weight: 600;
+	transition: 300ms;
+	cursor: pointer;
+}
+.section-support .input-wrapper .submit:hover {
+	background: transparent;
+
+	color: white;
+}
+
